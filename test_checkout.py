@@ -1,3 +1,7 @@
+import pytest
+
+# Tagging my test case with marker
+@pytest.mark.sanity
 def testLogin():
     print("Login Successful")
 
