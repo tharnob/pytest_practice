@@ -1,8 +1,6 @@
 import pytest
 
 
-
-
 @pytest.mark.skip
 def testLogin():
     print("Login Successful")
